@@ -1,6 +1,8 @@
-FROM fedora:29
+FROM fedora:30
 
 LABEL version="1.11.4.2"
+LABEL description="The Minecraft Bedrock Server"
+
 
 ENV NAME Bedrock-Server
 ENV arc=bedrock-server-1.11.2.4.zip
