@@ -50,7 +50,7 @@ sudo docker container rm <container name>
 sudo docker image rm <image name>
 ```
 
-now run the launcher script using the same server name as before. When the container starts up, it will already find the existing game folder with world, level, and config files. If your previous server was named "Billy", then you would do the follwoing:
+now run the launcher script using the same server name as before. When the container starts up, it will already find the existing game folder with world, level, and config files. If your previous server was named "Billy", then you would do the following:
 
 ```
 ./minecraft_launcher.sh <servername>
