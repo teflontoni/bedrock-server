@@ -5,7 +5,7 @@ LABEL description="The Minecraft Bedrock Server"
 
 
 ENV NAME Bedrock-Server
-ENV arc=bedrock-server-1.11.2.4.zip
+ENV arc=bedrock-server-1.11.4.2.zip
 ENV dlarc=https://minecraft.azureedge.net/bin-linux/${arc}
 
 WORKDIR /opt/minecraft
