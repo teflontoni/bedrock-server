@@ -34,13 +34,6 @@ First stop the container
 ```
 sudo docker stop <container name>
 ```
-Now backup your ```/var/games/<servername>``` folder and its contents on the host machine, because all server/game data is stored in a
-bind mount on the host, and will be overwritten by an update of the bedrock dedicated server.
-
-```
-sudo mkdir /var/games/mybackup
-sudo cp -r /var/games/<servername> /var/games/mybackup
-```
 
 You'll need remove your old container image.
 
