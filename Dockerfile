@@ -1,11 +1,11 @@
 FROM fedora:31
 
-LABEL version="1.14.60.5"
+LABEL version="1.16.0.2"
 LABEL description="The Minecraft Bedrock Server"
 LABEL maintainer="@IMetZach"
 
 ENV NAME Bedrock-Server
-ENV arc=bedrock-server-1.14.60.5.zip
+ENV arc=bedrock-server-1.16.0.2.zip
 ENV dlarc=https://minecraft.azureedge.net/bin-linux/${arc}
 
 WORKDIR /opt/minecraft
